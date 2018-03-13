@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: ShadowMapM
+  m_Shader: {fileID: 4800000, guid: bd87fc96cd9450343876aa113b54dfcd, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _ShadowMap:
+        m_Texture: {fileID: 8400000, guid: aa1b1376faddb894c8f982ed00a3a78f, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - TexSize: 256
+    - _FarClip: 1000
+    - _NearClip: 0.3
+    - _TexSize: 1024
+    m_Colors:
+    - _DiffuseColor: {r: 0.11813364, g: 0.6985294, b: 0.11813364, a: 0}
